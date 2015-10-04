@@ -3759,3 +3759,8 @@
 			}
 
 	}
+
+.major p{
+    font-size: 1.25em !important;
+   /* margin-top: -25dp !important;*/
+}
