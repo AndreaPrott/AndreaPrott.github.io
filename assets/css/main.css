@@ -61,6 +61,8 @@
 	.container {
 		margin-left: auto;
 		margin-right: auto;
+        margin-top: -1000dp !important;
+        padding-top: -1000dp !important;
 	}
 
 	.container.\31 25\25 {
@@ -1941,6 +1943,7 @@
 
 	section.special, article.special {
 		text-align: center;
+        margin-top: -100dp !important;
 	}
 
 	header p {
@@ -3030,7 +3033,6 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -3095,6 +3097,7 @@
 
 	#main {
 		padding: 4em 0;
+        
 	}
 
 		#main > header {
@@ -3759,3 +3762,33 @@
 			}
 
 	}
+
+.major p{
+    font-size: 1.25em !important;
+   /* margin-top: -25dp !important;*/
+}
+
+.ban {
+    background-image: url("images/overlay.png"), url("../../images/banner.jpg") !important;
+    
+}
+
+.backLogin {
+    background-image: url("images/overlay.png"), url("../../images/fondologin.jpg");
+    height: 100px !important;
+    width: 100% !important;
+    margin-top: -100dp !important;
+    padding-top: -60dp !important;
+    
+}
+
+.backLoginNS {
+    overflow: hidden;
+    
+}
+
+
+.container,clogin {
+    padding: -300dp !important;
+    margin-top: -200dp !important;
+}
